@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('./imagenes/invitados.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contenedor {
+    background-color: rgba(0, 0, 50, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 500px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #a4f3f3;
+  }
+  
+  button {
+    padding: 10px 25px;
+    border: none;
+    background-color: #3cbcb4;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2a9c94;
+  }
+  
+  .resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
